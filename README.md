@@ -1,5 +1,6 @@
 # filter
 0.	Allgemeines
+
 	Der Muesi Filter ist eine Erweiterung für den Browser von Google der unter dem Namen Chrome bekannt ist. Es ist mit ca 80% Marktanteil der verbreiteste Browser weltweit, siehe https://www.w3schools.com/browsers/default.asp. Google Chrome verfügt über ein Feature, das es ermöglicht, selber sogenannte Extensions zu schreiben, die die Funktionalität des Browsers erweitern. Der Muesi Filter ist eine solche Extension, die ich geschrieben habe, weil es mir lästig war, in den Forenlisten immer Einträge angezeigt zu bekommen, die mich nicht interessieren. Die Extension bietet die Möglichkeit, die Namen von Benutzern, Foren, sowie die Titel von Threads anzugeben, die in den Übersichtslisten danach nicht mehr angezeigt werden sollen. Dazu verändert sie die Seiten, nachdem (!!) sie von muenchnersingles.de heruntergeladen wurden, und löscht zur Laufzeit die entsprechenden Einträge aus den Listen. 
 	
 	WICHTIG: Die Erweiterung löscht keine Daten von irgendwlechen Servers oder von Eureom Rechner, sie unterdrückt nur die Anzeige bestiemnr User und Posts und das auch nur solange wie ihr das wollt! Die Erweiterung kann nichts verändern, was bei den Muenchner Singles gespeichert ist! 
