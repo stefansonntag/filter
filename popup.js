@@ -14,8 +14,7 @@ function changeIcon() {
 	else
 	{
 		chrome.browserAction.setIcon({path: './icon16.png'});
-		console.log('changeIcon: Müsi Filter ist Aktiv');
-		alert('changeIcon: Müsi Filter ist Inaktiv');
+		console.log('changeIcon: Müsi Filter ist Inaktiv');
 		// chrome.browserAction.setBadgeText ( { default_title: 'Müsi Filter ist Inaktiv' } );
 	}
 }
