@@ -1,3 +1,23 @@
+function changeIcon() {
+	if(
+		(document.getElementById("threadTitlesCheckbox").checked && document.getElementById("threadTitles").value)
+		|| 
+		(document.getElementById("userNamesCheckbox").checked && document.getElementById("userNames").value)
+		||
+		(document.getElementById("forumNamesCheckbox").checked && document.getElementById("forumNames").value)
+	)
+	{
+		chrome.browserAction.setIcon({path: './icon16g.png'});
+		alert('changeIcon: Müsi Filter ist Aktiv');
+		// chrome.browserAction.setBadgeText ( { default_title: 'Müsi Filter ist Aktiv' } );
+	}
+	else
+	{
+		chrome.browserAction.setIcon({path: './icon16.png'});
+		alert('changeIcon: Müsi Filter ist Inaktiv');
+		// chrome.browserAction.setBadgeText ( { default_title: 'Müsi Filter ist Inaktiv' } );
+	}
+}
 function userNamesCheckboxChanged() {
 
 	// save checkbox state if it was selected/deselected
@@ -57,7 +77,8 @@ function saveValues() {
           {code: 'location.reload();'});
 		});
 	
-	// destroy pop-up windwo
+	// destroy pop-up window
+	changeIcon();
 	window.close();	
 }
 
@@ -72,6 +93,7 @@ function resetValues() {
 		document.getElementById("threadTitlesCheckbox").checked = true;
 
 		saveValues();
+		changeIcon();
 		// destroy pop-up window
 		// window.close();	
 }
@@ -79,7 +101,9 @@ function resetValues() {
 function closeWindow() {
 
 	// destroy pop-up window
+	changeIcon();
 	window.close();	
+
 }
 
 function main() {
