@@ -31,12 +31,11 @@ function hideThread(ThreadTitles, threadTitlesCheckbox) {
 
 	if(threadTitlesCheckbox) {
 
-		// allow field content to be an array with elements separatd by ','
+		// allow field content to be an array with elements separated by ';'
 		var arrayThreadTitles = ThreadTitles.split(";");
 		var arrayThreadTitlesLength = arrayThreadTitles.length;
 		console.log("in hideThread"); 
-		// remove row(s) with certain thread title(s) when we are in Forum Liste aller Threads
-		// if ($("[id^=thread_]").length) {
+		// remove row(s) with certain thread title(s)
 			for (var i = 0; i < arrayThreadTitlesLength; i++) {
 				var trimmedThreadTitle = arrayThreadTitles[i].trim(); 
 				if(trimmedThreadTitle.length>0) {
@@ -58,12 +57,11 @@ function hideForum(ForumNames, forumNamesCheckbox) {
 
 	if(forumNamesCheckbox) {
 
-		// allow field content to be an array with elements separatd by ','
+		// allow field content to be an array with elements separated by ';'
 		var arrayForumNames = ForumNames.split(";");
 		var arrayForumNamesLength = arrayForumNames.length;
 		console.log("in hideForum"); 
-		// remove row(s) with certain thread title(s) when we are in Forum Liste aller Threads
-		// if ($("[id^=thread_]").length) {
+		// remove row(s) with certain forum name title(s)
 			for (var i = 0; i < arrayForumNamesLength; i++) {
 				var trimmedForumName = arrayForumNames[i].trim(); 
 				if(trimmedForumName.length>0) {
