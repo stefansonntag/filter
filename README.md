@@ -13,7 +13,7 @@
 
 	b) Folgende Seite aufrufen: https://github.com/stefansonntag/filter/blob/master/Muesi.crx und per Klick auf den Download Button die Datei auf den eigenen Rechner herunterladen
 
-	c) In den Ordner für Downloads gehen, mit der rechten Maustaste auf die zuvor heruntergeladene Datei muesi.crx klicken und in dem daraufhin sich öffnenendem Menu die Option "Öffnen mit" anklicken. Google Chrome auswähren und dann wird die Extension installiert. Wenn Ihr die Extension wieder löschen wollte: einfach chrome://extensions/ in die Adresszeile von Chrome eingeben und dann bei Muesi Filter auf "Entfernen" klicken. 
+	c) In den Ordner für Downloads gehen, mit der rechten Maustaste auf die zuvor heruntergeladene Datei muesi.crx klicken und in dem daraufhin sich öffnendem Menu die Option "Öffnen mit" anklicken, Google Chrome auswählen und dann wird die Extension installiert. Alternativ könnt ihr "chrome://extensions/" in die Addresszeile von Chrome eingeben und dann auf die sich öffnene Seite die zuvor herunter gelandene Datei "muesi.crx" ziehen. Falls Ihr die Extension wieder löschen wollt: einfach "chrome://extensions/" in die Addresszeile von Chrome eingeben und dann bei Muesi Filter auf "Entfernen" klicken. 
 
 3. 	Bekannte Beschränkungen
 
