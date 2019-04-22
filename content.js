@@ -17,7 +17,7 @@ function hideUser(UserNames,userNamesCheckbox) {
 			for (var i = 0; i < arrayUserNamesLength; i++) {
 				var trimmedUserName = arrayUserNames[i].trim(); 
 				if(trimmedUserName.length>0) {
-					console.log("hiding user " + trimmedUserName);
+					console.log("hiding user for <TD> '" + trimmedUserName + "'");
 					$('td').filter(function() {
 						return $(this).text().indexOf(trimmedUserName) === 0;
 					}).closest('tr').remove();
@@ -40,11 +40,12 @@ function hideThread(ThreadTitles, threadTitlesCheckbox) {
 			for (var i = 0; i < arrayThreadTitlesLength; i++) {
 				var trimmedThreadTitle = arrayThreadTitles[i].trim(); 
 				if(trimmedThreadTitle.length>0) {
-					console.log("hiding thread " + trimmedThreadTitle);
+					console.log("hiding thread for <TD> '" + trimmedThreadTitle + "'");
 					$('td').filter(function() {
 						return $(this).text().indexOf(trimmedThreadTitle) === 0;
 					}).closest('tr').remove();
-					$('b').filter(function() {
+					console.log("hiding thread for <A> '" + trimmedThreadTitle + "'");
+					$('a').filter(function() {
 						return $(this).text().indexOf(trimmedThreadTitle) === 0;
 					}).closest('tr').remove();
 				}
@@ -66,11 +67,12 @@ function hideForum(ForumNames, forumNamesCheckbox) {
 			for (var i = 0; i < arrayForumNamesLength; i++) {
 				var trimmedForumName = arrayForumNames[i].trim(); 
 				if(trimmedForumName.length>0) {
-					console.log("hiding thread " + trimmedForumName);
+					console.log("hiding forum for <TD> '" + trimmedForumName + "'");
 					$('td').filter(function() {
 						return $(this).text().indexOf(trimmedForumName) === 0;
 					}).closest('tr').remove();
-					$('b').filter(function() {
+					console.log("hiding forum for <A> '" + trimmedForumName + "'");
+					$('a').filter(function() {
 						return $(this).text().indexOf(trimmedForumName) === 0;
 					}).closest('tr').remove();
 				}

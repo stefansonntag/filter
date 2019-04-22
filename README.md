@@ -25,6 +25,8 @@
 
 	d) Wenn ihr die Filtereinstellungen das erste Mal nach der Installation aufruft, dann kann es sein, dass in den Eingabefelder "undefined" steht. Das ist nicht weiter schlimm, ihr könnt die Einträge einfach überschreiben bzw löschen. Das ist nur meiner Faulheit anzulasten, alle Möglichkeiten durchzutesten, in denen es zu nicht sauber initialisierten Variable kommen kann.
 
+	e) Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite übrr den Browser neu laden. 
+
 4. 	Sonstiges
 
 	Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ...
