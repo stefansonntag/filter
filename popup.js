@@ -84,15 +84,57 @@ function closeWindow() {
 
 function main() {
 	
-
 	// populate input fields with values from local storage
 	chrome.storage.sync.get(['userNames','threadTitles','userNamesCheckbox','threadTitlesCheckbox','forumNames','forumNamesCheckbox'], function(result) {
-		document.getElementById("userNames").value = result.userNames;
-		document.getElementById("forumNames").value = result.forumNames;
-		document.getElementById("threadTitles").value = result.threadTitles;
-		document.getElementById("userNamesCheckbox").checked = result.userNamesCheckbox;
-		document.getElementById("forumNamesCheckbox").checked = result.forumNamesCheckbox;
-		document.getElementById("threadTitlesCheckbox").checked = result.threadTitlesCheckbox;
+	
+		if (result.userNames == null){
+			var userNames = "";
+		}
+		else {
+			var userNames = result.userNames;
+		}
+
+		if (result.forumNames == null){
+			var forumNames = "";
+		}
+		else {
+			var forumNames = result.forumNames;
+		}
+
+		if (result.threadTitles == null){
+			var threadTitles = "";
+		}
+		else {
+			var threadTitles = result.ThreadTitles;
+		}
+
+		if (result.userNamesCheckbox == null){
+			var userNamesCheckbox = true;
+		}
+		else {
+			var userNamesCheckbox = result.userNamesCheckbox;
+		}
+
+		if (result.forumNamesCheckbox == null){
+			var forumNamesCheckbox = true;
+		}
+		else {
+			var forumNamesCheckbox = result.forumNamesCheckbox;
+		}
+
+		if (result.threadTitlesCheckbox == null){
+			var threadTitlesCheckbox = true;
+		}
+		else {
+			var threadTitlesCheckbox = result.threadTitlesCheckbox;
+		}
+	
+		document.getElementById("userNames").value = userNames;
+		document.getElementById("forumNames").value = forumNames;
+		document.getElementById("threadTitles").value = threadTitles;
+		document.getElementById("userNamesCheckbox").checked = userNamesCheckbox;
+		document.getElementById("forumNamesCheckbox").checked = forumNamesCheckbox;
+		document.getElementById("threadTitlesCheckbox").checked = threadTitlesCheckbox;
 	  });
 }
 
