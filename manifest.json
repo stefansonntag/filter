@@ -1,0 +1,29 @@
+{
+    "name": "Müsi Filter",
+    "version": "1.0",
+    "version_name":"1.0 (experimental)",
+    "description": "Ausblenden einzelner Posts, Threads, Autoren oder Foren in Listen auf muenchnersingles.de",
+    "icons": { 
+       "128": "icon128.png" ,
+       "48": "icon48.png" ,
+       "16": "icon16.png" 
+    },
+    "author": "Stefan Sonntag", 
+    "content_scripts": [{
+ 	"js": ["jquery-3.4.0.slim.js","content.js"],
+ 	"matches": ["https://www.muenchnersingles.de/*","http://www.muenchnersingles.de/*"]
+     }],
+    "manifest_version": 2,
+    "browser_action": {
+	"default_title": "Müsi Filter",
+	"default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*", 
+        "https://*/*",
+        "storage"
+    ]
+  }
+
+  

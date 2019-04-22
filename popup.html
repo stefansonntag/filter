@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"  href="popup.css">
+    <link rel="stylesheet"  href="bootstrap.min.css">
+  
+    <title>Optionen</title>
+  </head>
+
+  <body>
+	<legend>Filter Einstellungen</legend>
+	<div class="container">
+      <form class="form-horizontal" id="options" name="options">
+          <fieldset>
+            <div class="form-group">
+              <!-- <div>&nbsp;</div> -->
+
+              <!-- Prepended checkbox -->
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="userNames">Müsi</label>
+              <div class="col-md-6">
+                <div class="input-group">
+                  <span class="input-group-addon">     
+                      <input type="checkbox" checked="checked" id="userNamesCheckbox" name="userNamesCheckbox">     
+                  </span>
+				  <input id="userNames" name="userNames" class="form-control" type="text" placeholder="Ein oder mehrere Nicknames">
+                </div>
+                <p class="help-block">Mit Semikolon voneinander trennen</p>
+			  </div>
+			</div>
+			
+			<!-- Prepended checkbox -->
+			<div class="form-group">
+				<label class="col-md-2 control-label" for="forumNames">Forum</label>
+				<div class="col-md-6">
+					<div class="input-group">
+					<span class="input-group-addon">     
+						<input type="checkbox" checked="checked" id="forumNamesCheckbox" name="forumNamesCheckbox">     
+					</span>
+					<input id="forumNames" name="forumNames" class="form-control" type="text" placeholder="Ein oder mehrere Foren">
+					</div>
+					<p class="help-block">Mit Semikolon voneinander trennen</p>
+				</div>
+				</div>
+  
+            <!-- Prepended checkbox -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="threadTitles">Thread</label>
+              <div class="col-md-8">
+                <div class="input-group">
+                  <span class="input-group-addon">     
+                      <input type="checkbox" checked="checked" id="threadTitlesCheckbox" name="threadTitlesCheckbox">     
+				  </span>
+				  <textarea class="form-control" id="threadTitles" name="threadTitles" placeholder="Ein oder mehrere Threadtitel" rows=3></textarea>
+                </div>
+                <p class="help-block">Mit Semikolon voneinander trennen</p>
+              </div>
+            </div>
+              
+            <!-- Button (Double) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="save"></label>
+              <div class="col-md-8">
+                <button id="saveValues" name="saveValues" class="btn btn-primary">Einträge filtern</button>
+				<button id="resetValues" name="resetValues" class="btn btn-danger">Filter löschen</button>
+				<button id="closeWindow" name="closeWindow" class="btn btn-info">Fenster schließen</button>
+              </div>
+            </div>
+          
+          </fieldset>
+	  </form>
+	</div>
+	<span>Diese Erweiterung sammelt weder Daten oder spioniert sie etwas aus. Der Quellcode liegt einsehbar </span><a href="https://www.muenchnersingles.de/user/280646" target="_blank">hier</a>. &nbsp; &nbsp;  <a href="https://www.muenchnersingles.de/user/280646" target="_blank"><b>*** Stefan ***</b></a>
+	
+  </body>
+  <script src="popup.js"></script>
+</html>
