@@ -105,7 +105,7 @@ function main() {
 			var threadTitles = "";
 		}
 		else {
-			var threadTitles = result.ThreadTitles;
+			var threadTitles = result.threadTitles;
 		}
 
 		if (result.userNamesCheckbox == null){
