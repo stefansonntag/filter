@@ -1,7 +1,7 @@
 {
     "name": "Müsi Filter",
     "version": "1.0",
-    "version_name":"1.0 (experimental)",
+    "version_name":"1.0 (RC)",
     "description": "Ausblenden einzelner Posts, Threads, Autoren oder Foren in Listen auf muenchnersingles.de",
     "icons": { 
        "128": "icon128.png" ,
@@ -15,16 +15,13 @@
      }],
     "manifest_version": 2,
     "browser_action": {
-	// "default_title": "Müsi Filter",
     "default_popup": "popup.html",
     "default_icon": "icon16.png"
     },
     "permissions": [
-        "tabs",
-        "http://*/*", 
-        "https://*/*",
+        "activeTab",
+        "http://muenchnersingles.de/*", 
+        "https://muenchnersingles.de/*",
         "storage"
     ]
   }
-
-  
