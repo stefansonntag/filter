@@ -1,4 +1,5 @@
 function changeIcon() {
+	// if one of the three checkbox markers is set and the corresponding text field contains at least 1 character
 	if(
 		(document.getElementById("threadTitlesCheckbox").checked && document.getElementById("threadTitles").value)
 		|| 
@@ -6,22 +7,23 @@ function changeIcon() {
 		||
 		(document.getElementById("forumNamesCheckbox").checked && document.getElementById("forumNames").value)
 	)
+	// then display "EIN" in the browser bar
 	{
-		// chrome.browserAction.setIcon({path: 'icon16g.png'});
 		chrome.browserAction.setTitle({title: 'Müsi Filter ist Aktiv'});
 		chrome.browserAction.setBadgeText({text: 'EIN'});
 		chrome.browserAction.setBadgeBackgroundColor({color: 'darkgreen'});
 		console.log('changeIcon: Müsi Filter ist Aktiv');
 	}
 	else
+	// display "AUS" in the browser bar
 	{
-		// chrome.browserAction.setIcon({path: 'icon16.png'});
 		chrome.browserAction.setTitle({title: 'Müsi Filter ist Inaktiv'});
 		chrome.browserAction.setBadgeText({text: 'AUS'});
 		chrome.browserAction.setBadgeBackgroundColor({color: 'darkred'});
 		console.log('changeIcon: Müsi Filter ist Inaktiv');
 	}
 }
+
 function userNamesCheckboxChanged() {
 
 	// save checkbox state if it was selected/deselected
@@ -44,13 +46,13 @@ function forumNamesCheckboxChanged() {
 }
 
 function userNamesChanged() {
-	// save content of Muesie Field if it was changed
+	// save content of Benutzer Field if it was changed
 	var userNames = document.getElementById("userNames").value;
 	chrome.storage.sync.set({'userNames': userNames}, function() {});
 }
 
 function forumNamesChanged() {
-	// save content of Muesie Field if it was changed
+	// save content of Forum Field if it was changed
 	var forumNames = document.getElementById("forumNames").value;
 	chrome.storage.sync.set({'forumNames': forumNames}, function() {});
 }
@@ -96,16 +98,22 @@ function resetValues() {
 		document.getElementById("forumNamesCheckbox").checked = false;
 		document.getElementById("threadTitlesCheckbox").checked = false;
 
+		// save empty fields in local storage
 		saveValues();
+
+		// update icon in browser bar
 		changeIcon();
+		
 		// destroy pop-up window
-		// window.close();	
+		window.close();	
 }
 
 function closeWindow() {
 
-	// destroy pop-up window
+	// update icon in browser bar
 	changeIcon();
+
+	// destroy pop-up window
 	window.close();	
 
 }
