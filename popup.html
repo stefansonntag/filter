@@ -11,7 +11,7 @@
   </head>
 
   <body>
-	<legend>Filter Einstellungen</legend>
+	<legend style="color:darkred">Müsi Filter Einstellungen</legend>
 	<div class="container">
       <form class="form-horizontal" id="options" name="options">
           <fieldset>
@@ -20,7 +20,7 @@
 
               <!-- Prepended checkbox -->
             <div class="form-group">
-              <label class="col-md-2 control-label" for="userNames">Müsi</label>
+              <label class="col-md-2 control-label" for="userNames"style="color:darkred">Benutzer</label>
               <div class="col-md-6">
                 <div class="input-group">
                   <span class="input-group-addon">     
@@ -28,13 +28,13 @@
                   </span>
 				  <input id="userNames" name="userNames" class="form-control" type="text" placeholder="Ein oder mehrere Nicknames">
                 </div>
-                <p class="help-block">Mit Semikolon voneinander trennen</p>
+                <p class="help-block"><small>Mit Semikolon voneinander trennen</small></p>
 			  </div>
 			</div>
 			
 			<!-- Prepended checkbox -->
 			<div class="form-group">
-				<label class="col-md-2 control-label" for="forumNames">Forum</label>
+				<label class="col-md-2 control-label" for="forumNames" style="color:darkred">Forum</label>
 				<div class="col-md-6">
 					<div class="input-group">
 					<span class="input-group-addon">     
@@ -42,13 +42,13 @@
 					</span>
 					<input id="forumNames" name="forumNames" class="form-control" type="text" placeholder="Ein oder mehrere Foren">
 					</div>
-					<p class="help-block">Mit Semikolon voneinander trennen</p>
+          <p class="help-block"><small>Mit Semikolon voneinander trennen</small></p>
 				</div>
 				</div>
   
             <!-- Prepended checkbox -->
             <div class="form-group">
-              <label class="col-md-4 control-label" for="threadTitles">Thread</label>
+              <label class="col-md-4 control-label" for="threadTitles" style="color:darkred">Thread</label>
               <div class="col-md-8">
                 <div class="input-group">
                   <span class="input-group-addon">     
@@ -56,7 +56,7 @@
 				  </span>
 				  <textarea class="form-control" id="threadTitles" name="threadTitles" placeholder="Ein oder mehrere Threadtitel" rows=3></textarea>
                 </div>
-                <p class="help-block">Mit Semikolon voneinander trennen</p>
+                <p class="help-block"><small>Mit Semikolon voneinander trennen</small></p>
               </div>
             </div>
               
@@ -64,8 +64,8 @@
             <div class="form-group">
               <label class="col-md-4 control-label" for="save"></label>
               <div class="col-md-8">
-                <button id="saveValues" name="saveValues" class="btn btn-primary">Einträge filtern</button>
-				<button id="resetValues" name="resetValues" class="btn btn-danger">Filter löschen</button>
+                <button id="saveValues" name="saveValues" class="btn btn-warning">Einstellungen übernehmen</button>
+				<button id="resetValues" name="resetValues" class="btn btn-info">Filter löschen</button>
 				<button id="closeWindow" name="closeWindow" class="btn btn-info">Fenster schließen</button>
               </div>
             </div>
@@ -73,7 +73,8 @@
           </fieldset>
 	  </form>
 	</div>
-	<span>Diese Erweiterung sammelt weder Daten oder spioniert sie etwas aus. Der Quellcode liegt einsehbar </span><a href="https://github.com/stefansonntag/filter" target="_blank">hier</a>. &nbsp; &nbsp;  <a href="https://www.muenchnersingles.de/user/280646" target="_blank"><b>*** Stefan ***</b></a>
+  <span>Diese Erweiterung sammelt weder Daten oder spioniert sie etwas aus. Der Quellcode liegt einsehbar </span><a href="https://github.com/stefansonntag/filter" target="_blank">hier</a>. 
+  <!-- &nbsp; &nbsp;  <a href="https://www.muenchnersingles.de/user/280646" target="_blank"><b>*** Stefan ***</b></a> -->
 	
   </body>
   <script src="popup.js"></script>

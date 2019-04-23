@@ -31,4 +31,8 @@
 
 	Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ...
 
+5. Bedienungstips
+
+	a) Man kann eine Tastenkkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "tastenkombination" gehen und die Tastaturfolge drücken, beu mit z.B. Control - M (Command M auf dem Mac) 
+
 	
