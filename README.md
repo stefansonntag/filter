@@ -31,7 +31,13 @@
 
 	Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ...
 
-5. Bedienungstips
+5. Sicherheit
+
+	Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code mit Absicht so weit wie es programmiertechnisch sinnvoll ist im Klartext geschrieben, also sprechende Variablennamen, Kommentare im Source Code, keine Verwendung von uglify.js oder ähnlichem, damit alles nachvollziehbar ist. Wenn die Zeit es erlaubt, erstelle ich auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. Könnte man ja nachvollziehbarerweise meinen, weil sie im Browser der bösen Tante Google läuft ;-)
+
+	Um sich den Source Code der installerten Erweiterung auf cdem eigenen Rechner anzusehen (denn die crx datei zum installieren könnte ja theoretisch etwas ganz Anderes enthalten als der im repo veröffentlichte Source Code, z.B einen Trojaner): https://gist.github.com/paulirish/78d6c1406c901be02c2d beschreibt, wie man das machen kann
+
+6. Bedienungstips
 
 	a) Man kann eine Tastenkkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "tastenkombination" gehen und die Tastaturfolge drücken, beu mit z.B. Control - M (Command M auf dem Mac) 
 
