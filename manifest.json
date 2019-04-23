@@ -15,9 +15,9 @@
      }],
     "manifest_version": 2,
     "browser_action": {
-	"default_title": "Müsi Filter",
-    "default_popup": "popup.html"
-    //"default_icon": "icon16.png"
+	// "default_title": "Müsi Filter",
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
     },
     "permissions": [
         "tabs",

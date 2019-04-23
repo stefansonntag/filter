@@ -7,16 +7,19 @@ function changeIcon() {
 		(document.getElementById("forumNamesCheckbox").checked && document.getElementById("forumNames").value)
 	)
 	{
-		chrome.browserAction.setIcon({path: 'icon16g.png'});
-		chrome.browserAction.setIcon({path: 'icon16g.png'});
+		// chrome.browserAction.setIcon({path: 'icon16g.png'});
+		chrome.browserAction.setTitle({title: 'Müsi Filter ist Aktiv'});
+		chrome.browserAction.setBadgeText({text: 'EIN'});
+		chrome.browserAction.setBadgeBackgroundColor({color: 'darkgreen'});
 		console.log('changeIcon: Müsi Filter ist Aktiv');
-		// chrome.browserAction.setBadgeText ( { default_title: 'Müsi Filter ist Aktiv' } );
 	}
 	else
 	{
-		chrome.browserAction.setIcon({path: 'icon16.png'});
+		// chrome.browserAction.setIcon({path: 'icon16.png'});
+		chrome.browserAction.setTitle({title: 'Müsi Filter ist Inaktiv'});
+		chrome.browserAction.setBadgeText({text: 'AUS'});
+		chrome.browserAction.setBadgeBackgroundColor({color: 'darkred'});
 		console.log('changeIcon: Müsi Filter ist Inaktiv');
-		// chrome.browserAction.setBadgeText ( { default_title: 'Müsi Filter ist Inaktiv' } );
 	}
 }
 function userNamesCheckboxChanged() {
