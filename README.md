@@ -44,4 +44,6 @@
 	b) Wenn der Filter aktiv ist, also Einträge in den Listen unterdrückt, dann seht ihr auf dem Icon "EIN" gechrieben. Was "AUS" bedeutet, ist hoffentlicvh klar :-). EIN ist der Filter immer dann, wenn mindestens eines der 3 Häkchen gesetzt ist und in einem Feld, dessen Häkchen gesetzt ist, mindestens 1 Filterbegriff steht (Minimum 1 Zeichen)
 
 	c) Der Filter unterscheidet Gross- und Kleinschreibung. Wenn Ihr also den Thread "Guten Morgen" herausfiltern wollt, müsst ihr es genau so schreiben; "Guten Morgen" wird zu keinem Ergebnis führen. Was aber funktioniert, ist dass nur der ersten Buchstaben dessen, was gefiltert werden soll, angegeben werden. Wenn ihr also nach "Guten Morgen" filtert, werden auch Threads wie "Guten Morgen....","Guten Morgen allerseits" usw. in der Anzeige unterdrückt. Für Benutzernamen gilt die gleiche Funktionsweise.
+
+	d) Die einfachste Art, wie man Benutzername und/oder Thread Titel ohne Tippfehler in die Felder einträgt ist, in den Listen (z.B. in Neue Beiträge, geht aber auch jede andere Liste) mit der Maus über den Benutzernamen bzw Threadtitel zu fahren, dann recht Maustaste und "kopieren" (nicht Link Adresse Kopieren!), dann das Filterfenster öffnen und den Inhalt in das entsprechende Feld hineinzukopieren, wiederum mit rchter Maustates und dann "Einfügen" auswählen
 	
