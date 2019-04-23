@@ -92,9 +92,9 @@ function resetValues() {
 		document.getElementById("userNames").value = "";
 		document.getElementById("forumNames").value = "";
 		document.getElementById("threadTitles").value = "";
-		document.getElementById("userNamesCheckbox").checked = true;
-		document.getElementById("forumNamesCheckbox").checked = true;
-		document.getElementById("threadTitlesCheckbox").checked = true;
+		document.getElementById("userNamesCheckbox").checked = false;
+		document.getElementById("forumNamesCheckbox").checked = false;
+		document.getElementById("threadTitlesCheckbox").checked = false;
 
 		saveValues();
 		changeIcon();
@@ -137,21 +137,21 @@ function main() {
 		}
 
 		if (result.userNamesCheckbox == null){
-			var userNamesCheckbox = true;
+			var userNamesCheckbox = false;
 		}
 		else {
 			var userNamesCheckbox = result.userNamesCheckbox;
 		}
 
 		if (result.forumNamesCheckbox == null){
-			var forumNamesCheckbox = true;
+			var forumNamesCheckbox = false;
 		}
 		else {
 			var forumNamesCheckbox = result.forumNamesCheckbox;
 		}
 
 		if (result.threadTitlesCheckbox == null){
-			var threadTitlesCheckbox = true;
+			var threadTitlesCheckbox = false;
 		}
 		else {
 			var threadTitlesCheckbox = result.threadTitlesCheckbox;
