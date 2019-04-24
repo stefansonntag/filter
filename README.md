@@ -4,21 +4,16 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 ![](./media/filter.jpg)
 
 
-## Inhaltsverzeichnis
-<details>
 
-- [Installation] (#Installation)
-- [Einschränkungen] (#Einschränkungen)
-- [Sicherheit] (#Sicherheit)
-- [Bedienungstips] (#Bedienungstips)
-- [Sonstiges] (#Sonstiges)
 
-</details>
 	
 
 ## Installation
 
 ### Für Google Chrome
+
+<details>
+
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
 
 2) In den Chrome Web Store gehen https://chrome.google.com/webstore/detail/müsi-filter/fdhoepcaknoijkocinkjodileckhopno und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
@@ -31,8 +26,13 @@ Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erwe
 
 ![](./media/chromeinstalled.jpg)
 
+</details>
+
 
 ## Für Opera
+
+<details>
+
 Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen Unterschied, dass man aus Opera heraus nicht den Chrome Web store besuchen kann, da Google es nicht zulässt, dass Nicht-Google Bwowser in den Chrome Web Store gehen. Das macht aber nichts, denn es gibt - genau - eine Opera Extension, die dem Chrome Web Store vorspielt, Opera sei gar kein Opera, sondern ein Chrome Browser :-). Also muss diese Extension zuerst installiert werden, damit ihr danach die Müsi Extension aus dem Chrome Web Store laden könnt
 
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
@@ -66,7 +66,12 @@ Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass 
 
 ![](./media/operamuesiinstalled.jpg)
 
+</details>
+
+
 ## Für Firefox
+
+<details>
 
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.mozilla.org/de/firefox/new/
 2) Den Mozilla Add On Store besuchen https://addons.mozilla.org/de/firefox/addon/müsi-filter/ und auf 'Zu Firefox hinzufügen klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. Dort 'Ja' auswählen.
@@ -77,20 +82,23 @@ Anschliessend wird ein Fenster angezeigt, dass die Extension installiert ist. Ei
 
 ![](./media/firefoxinstalled.jpg)
 
+</details>
+
+
 ## Einschränkungen
 
-- Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Android (Smartphone, Tablet). Das liegt daran, dass die Browerhersteller die Funktionalität von Extensions nur auf Desktop Rechnern anbieten. 
+Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Android (Smartphone, Tablet). Das liegt daran, dass die Browerhersteller die Funktionalität von Extensions nur auf Desktop Rechnern anbieten. 
 Update: Laut https://support.mozilla.org/de/kb/add-ons-finden-und-installieren-firefox-android funktionieren Extensions unter Firefox auf Android Geräten. Da ich aber keines besitze, kann ich es nicht testen
 
-- Es ist möglich, dass die Paginierung manchmal etwas komisch aussieht. Das liegt daran, dass die Erweiterung nur im Browser läuft und keine Daten serverseitig modifizieren kann, also auch nicht die Paginierung auf Basis der gefilterten Posts berechnen berechnen kann, sondern die Paginierung der ungefilterten Listen übernimmt. Gleiches gilt für die abwechselnde Schattierung in den Listen: normalerweise sehr ihr dort die Posts abwechselnd grau und weiß hinterlegt. Wenn ihr einen Eintrag filtert, dann kann es passieren, dass zwei oder mehr hintereinander angezeigte Posts grau bzw weiß hinterlegt sind und nicht mehr abwechselnd.
+Es ist möglich, dass die Paginierung manchmal etwas komisch aussieht. Das liegt daran, dass die Erweiterung nur im Browser läuft und keine Daten serverseitig modifizieren kann, also auch nicht die Paginierung auf Basis der gefilterten Posts berechnen berechnen kann, sondern die Paginierung der ungefilterten Listen übernimmt. Gleiches gilt für die abwechselnde Schattierung in den Listen: normalerweise sehr ihr dort die Posts abwechselnd grau und weiß hinterlegt. Wenn ihr einen Eintrag filtert, dann kann es passieren, dass zwei oder mehr hintereinander angezeigte Posts grau bzw weiß hinterlegt sind und nicht mehr abwechselnd.
 
-- Es werden zwar einzelne Posts unterdrückt, nicht aber deren Zitate.  
+Es werden zwar einzelne Posts unterdrückt, nicht aber deren Zitate.  
 
-- Wenn ihr die Filtereinstellungen das erste Mal nach der Installation aufruft, dann kann es sein, dass in den Eingabefeldern "undefined" steht. Das ist nicht weiter schlimm, ihr könnt die Einträge einfach überschreiben bzw löschen. Dieser Effekt ist nur meiner Faulheit anzulasten, alle Möglichkeiten durchzutesten, in denen es zu nicht sauber initialisierten Variablen kommen kann.
+Wenn ihr die Filtereinstellungen das erste Mal nach der Installation aufruft, dann kann es sein, dass in den Eingabefeldern "undefined" steht. Das ist nicht weiter schlimm, ihr könnt die Einträge einfach überschreiben bzw löschen. Dieser Effekt ist nur meiner Faulheit anzulasten, alle Möglichkeiten durchzutesten, in denen es zu nicht sauber initialisierten Variablen kommen kann.
 
-- Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag - unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite über den Browser neu laden. 
+Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag - unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite über den Browser neu laden. 
 
-- In Firefox bewirkt ein KLicken auf "Einstellungen übernehmen" kein automatisches Neuladen der Seite. Damit die Filter angewendet werden , müsst ihr die Seite 1 x manuell neu laden (über das Menu, Tastatur, das Reload Icon oder auf einen der Links auf den Müsi Seiten) 
+In Firefox bewirkt ein KLicken auf "Einstellungen übernehmen" kein automatisches Neuladen der Seite. Damit die Filter angewendet werden , müsst ihr die Seite 1 x manuell neu laden (über das Menu, Tastatur, das Reload Icon oder auf einen der Links auf den Müsi Seiten) 
 
 ## Sicherheit
 
