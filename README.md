@@ -19,45 +19,45 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 ## Installation
 
 ### Für Google Chrome
-- Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
-- In den Chrome Web Store gehen https://chrome.google.com/webstore nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
+1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
+
+2)In den Chrome Web Store gehen https://chrome.google.com/webstore nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
 ![](./media/chromeadd.jpg)
 
 
-- Dort auf 'Erweiterung hinzufügen' klicken. Falls Du Bedenken wegen Datensicherheit hast, lies Dir vorher den Abschnitt 'Sicherheit' auf dieser Seite durch.
+Dort auf 'Erweiterung hinzufügen' klicken. Falls Du Bedenken wegen Datensicherheit hast, lies Dir vorher den Abschnitt 'Sicherheit' auf dieser Seite durch.
 
-- Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schiessen, in dem Du irgendwohin ausserhalb des Fensters klickst.
+Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schiessen, in dem Du irgendwohin ausserhalb des Fensters klickst.
 ![](./media/chromeinstalled.jpg)
 
 
 ## Für Opera
 Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen Unterschied, dass man aus Opera heraus nicht den Chrome Web store besuchen kann, da Google es nicht zulässt, dass Nicht-Google Bwowser in den Chrome Web Store gehen. Das macht aber nichts, denn es gibt - genau - eine Opera Extension, die dem Chrome Web Store vorspielt, Opera sei gar kein Opera, sondern ein Chrome Browser :-). Also muss diese Extension zuerst installiert werden, damit ihr danach die Müsi Extension aus dem Chrome Web Store laden könnt
 
-- Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
+1) Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
 
-- Auf folgende Seite gehen: https://addons.opera.com/de/extensions/details/install-chrome-extensions/ und dort die angezeigte Erweiterung installieren, in dem Du auf 'Zu Opera hinzufügen' klickst
- ![](./media/operawebstore.jpg)
+2) Auf folgende Seite gehen: https://addons.opera.com/de/extensions/details/install-chrome-extensions/ und dort die angezeigte Erweiterung installieren, in dem Du auf 'Zu Opera hinzufügen' klickst
+![](./media/operawebstore.jpg)
  
 
- - Es erscheint ein Hinweisfenster, dass die Erweiterung installiert ist
- ![](./media/operawebstoreinstalled.jpg)
+Es erscheint ein Hinweisfenster, dass die Erweiterung installiert ist
+![](./media/operawebstoreinstalled.jpg)
 
 
-- Danach kann es mit der eigentlichen Installation der Müsi Erweiterung losgehen. 
-- Dazu in den Chrome Web Store gehen https://chrome.google.com/webstore und dort nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, dass dir im Wesentlichen sagt, dass Du eine Chrome Extension in Opera installieren willst (was ja eigentlich nicht geht, s.o.) und es sein kann, dass dies Erweiterung ggf nicht ganz korrekt läuft. Tut sie aber :-) Also auf OK klicken und weitermachen
- ![](./media/operachromewarning.jpg)
+3) Danach kann es mit der eigentlichen Installation der Müsi Erweiterung losgehen. Dazu in den Chrome Web Store gehen https://chrome.google.com/webstore und dort nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, dass dir im Wesentlichen sagt, dass Du eine Chrome Extension in Opera installieren willst (was ja eigentlich nicht geht, s.o.) und es sein kann, dass dies Erweiterung ggf nicht ganz korrekt läuft. Tut sie aber :-) Also auf OK klicken und weitermachen
+![](./media/operachromewarning.jpg)
 
 
-- Danach wirst Du eine Seite geleitet, von der Du den Müsi Filter herunterladen und installieren kannst. Dazu auf der Seite auf 'Installieren' klicken
- ![](./media/operamuesidownload.jpg)
+Danach wirst Du auf eine Seite geleitet, von der Du den Müsi Filter herunterladen und installieren kannst. Dazu auf der Seite auf 'Installieren' klicken
+![](./media/operamuesidownload.jpg)
 
 
-- Es erscheint wie bei der Installation unter Chrome der Sicherheitshinweis. Dort 'Ja, Installieren' klicken. 
- ![](./media/operasecurityhint.jpg)
+Es erscheint wie bei der Installation unter Chrome der Sicherheitshinweis. Dort 'Ja, Installieren' klicken. 
+![](./media/operasecurityhint.jpg)
 
 
- -Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
-  ![](./media/operamuesiinstalled.jpg)
+Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
+![](./media/operamuesiinstalled.jpg)
 
 ## Für Firefox
 
@@ -67,9 +67,8 @@ Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen
 
 ## Einschränkungen
 
-- Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Android (Smartphone, Tablet). Das liegt daran, dass die Browerhersteller die Funktionalität von Extensions nur auf Desktop Rechnern anbietet. Update: Laut https://support.mozilla.org/de/kb/add-ons-finden-und-installieren-firefox-
-android funktionieren Extensions unter Firefox auf Android geräten. Da ich aber keines besitze, kann ich das nicht testen
-
+- Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Android (Smartphone, Tablet). Das liegt daran, dass die Browerhersteller die Funktionalität von Extensions nur auf Desktop Rechnern anbieten. 
+Update: Laut https://support.mozilla.org/de/kb/add-ons-finden-und-installieren-firefox-android funktionieren Extensions unter Firefox auf Android Geräten. Da ich aber keines besitze, kann ich es nicht testen
 
 - Es ist möglich, dass die Paginierung manchmal etwas komisch aussieht. Das liegt daran, dass die Erweiterung nur im Browser läuft und keine Daten serverseitig modifizieren kann, also auch nicht die Paginierung auf Basis der gefilterten Posts berechnen berechnen kann, sondern die Paginierung der ungefilterten Listen übernimmt. Gleiches gilt für die abwechselnde Schattierung in den Listen: normalerweise sehr ihr dort die Posts abwechselnd grau und weiß hinterlegt. Wenn ihr einen Eintrag filtert, dann kann es passieren, dass zwei oder mehr hintereinander angezeigte Posts grau bzw weiß hinterlegt sind und nicht mehr abwechselnd.
 
@@ -82,15 +81,15 @@ android funktionieren Extensions unter Firefox auf Android geräten. Da ich aber
 
 ## Sicherheit
 
-Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code daher hier auf github.com veröffentluhcv, so dass jeder hineinsehen kann, was ich geschrieben habe. Ich habe mit Absicht und so weit wie es programmiertechnisch sinnvoll ist im Klartext entwickelt, also sprechende Variablennamen, viele Kommentare im Source Code, keine Verwendung von uglify.js, minify.js oder ähnlichem (Code Obfuscation im Fachjargon) , damit alles nachvollziehbar bleibt. Wenn die Zeit es erlaubt, erstelle ich irgendwann auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. 
+Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code daher hier auf github.com veröffentlicht, so dass jeder hineinsehen kann, was ich geschrieben habe. Ich habe mit Absicht und so weit wie es programmiertechnisch sinnvoll ist im Klartext entwickelt, also sprechende Variablennamen, viele Kommentare im Source Code, keine Verwendung von uglify.js, minify.js oder Ähnlichem (Code Obfuscation im Fachjargon), damit alles nachvollziehbar bleibt. Wenn die Zeit es erlaubt, erstelle ich irgendwann auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. 
 
-Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery Zeilen aus HTML Tabellen, arbeitet also mit/auf absoluten Standards, die seit Jahren angewerdet werden. 
+Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery Zeilen aus HTML Tabellen, arbeitet also mit/auf absoluten Standards, die seit Jahren angewendet werden. 
 
-Für die Nicht Web Entwickler: Ihr fordert im Browser eine Seite von den muenchnersingles an. Deren Server sendet diese an den Browser. Bevor der Browser die Seite anzeigt, hakt die Extension ein und löscht die Einträge aus der Seite heraus, die ihr nicht sehen wollt. Sie arbeitet nur im Browser und löscht/modifiziert weder Daten auf den Servern von muenchnersingles.de noch solche, die auf Eurem Rechner gespeichert sind. Sie protokolliert auch nichts im Hintergrund oder spioniert sonst irgendwelche Daten aus - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt!  
+Für die Nicht Web Entwickler: Ihr fordert im Browser eine Seite von den muenchnersingles an. Der Server sendet diese an den Browser. Bevor der Browser die Seite anzeigt, hakt die Extension ein und löscht die Einträge aus der Seite heraus, die ihr nicht sehen wollt. Sie arbeitet nur im Browser und löscht/modifiziert weder Daten auf den Servern von muenchnersingles.de noch solche, die auf Eurem Rechner gespeichert sind. Sie protokolliert auch nichts im Hintergrund oder spioniert sonst irgendwelche Daten aus - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt!  
 
-Meinen Kindern habe das früher so erklärt: Bei den Müsis (zugegeben, es ging damals um andere Web Seiten) gibt es ein seeehr wertvolles Buch. Das geben die natürlich niiiemals aus den Händen, ist ja klar. Aber sie erlauben es Euch, in dem Buch zu lesen. Wenn ihr also eine Seite aus dem Buch lesen wollt, sagt ihr einem Bibliothekar, welches Kapitel aus dem Buch ihr lesen wollt. Der Bibliothekar weiss natürlich wo das Buch steht und auf welchen Seiten sich Kapitel befindet und sagt einem Praktikanten, dass er für euch eine Kopie der Seiten anfertigen soll, denn das Original kann er ja nicht aus den Händen geben, ist ja viel zu wertvoll. Aber warum ein Praktikant, warum macht der Bibliothekar das nicht selber? Hinter Euch steht bereits der nächste in der Schlange, der auch etwas lesen möchte, aus einem anderen, aber mindestens ebenso wertvollen Buch. Jetzt könnt ihr euch sicher vorstellen, dass ihr eeewig warten müsstet, wenn der Bibliothekar jedesmal selber mal aus dem einen, mal aus dem anderen Buch für euch die Seiten kopieren würde. Deswegen hat der Bibliothekar mehrere Praktikanten, die er losschickt und ihnen sagt, auf welcher Seite das Kapitel steht, dass sie rauskopieren sollen. So müsst ihr also nicht so lange warten, bis ihr endlich ander Reihe seit und mit dem Bibliothekar sagen könnt, was ihr lesen möchtet. Und in der Zwischenzeit flitzen die Praktikanten herum, machen Kopien und bringen sie zu euch. 
+Meinen Kindern habe das früher so erklärt: Bei den Müsis (zugegeben, es ging damals um andere Web Seiten) gibt es ein seeehr wertvolles Buch. Das geben die natürlich niiiemals aus den Händen, ist ja klar. Aber sie erlauben es Euch, in dem Buch zu lesen. Wenn ihr also eine Seite aus dem Buch lesen wollt, sagt ihr einem Bibliothekar, welches Kapitel aus dem Buch ihr lesen wollt. Der Bibliothekar weiss natürlich, wo das Buch steht und auf welchen Seiten sich Kapitel befindet, und sagt einem Praktikanten, dass er für euch eine Kopie der Seiten anfertigen soll, denn das Original kann er nicht aus den Händen geben, das ist ja viel zu wertvoll. Aber warum ein Praktikant, warum macht der Bibliothekar das nicht selber? Hinter Euch steht bereits der Nächste in der Schlange, der auch etwas lesen möchte, aus einem anderen, aber mindestens ebenso wertvollen Buch. Jetzt könnt ihr euch sicher vorstellen, dass ihr eeewig warten müsstet, wenn der Bibliothekar jedesmal selber loslaufen würde und mal aus dem einen, mal aus dem anderen Buch die Seiten kopiert. Deswegen hat der Bibliothekar mehrere Praktikanten, die er losschickt und ihnen sagt, was sie rauskopieren sollen. So müsst ihr also nicht so lange warten, bis ihr endlich an der Reihe seit und dem Bibliothekar sagen könnt, was ihr lesen möchtet. Und in der Zwischenzeit flitzen die Praktikanten durch die Blibliothek, machen Kopien und bringen sie zu euch. 
 Soweit funktioniert jede Web Seite im Kinderjargon, aber jetzt kommts: 
-Bevor der Praktikant zu euch kommt, hält ihn sein Kumpel auf und sagt "Hey, zeig mir mal, was du da hast!" und reisst ihm die Kopie aus den Händen. Er liest sie rasch durch und denkt sich "Nö, der Absatz da ist ja doof, der gefällt mir nicht", schwärzt ihn schnell aus und drückt dann dem Praktikanten die Seite wieder in die Hand. Der Praktikant aber hat soviel zu tun, dass er gar nicht weiter hinguckt und gibt euch dann die teils geschwärzte Kopie ...
+Bevor der Praktikant zu euch kommt, hält ihn sein Kumpel hinter einem Regal auf, sagt "Hey, zeig mir mal, was du da hast!" und reisst ihm die Kopie aus den Händen. Er liest sie rasch durch und denkt sich "Nö, der Absatz da ist ja doof, der gefällt mir nicht", schwärzt ihn schnell aus und drückt dann dem Praktikanten die Seite wieder in die Hand. Der Praktikant aber hat soviel zu tun, dass er gar nicht weiter hinguckt und gibt euch deswegen dann die teils geschwärzte Kopie ...
 
 ## Bedienungstips
 
