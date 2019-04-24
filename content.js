@@ -55,7 +55,7 @@ function hideThread(ThreadTitles, threadTitlesCheckbox) {
 		for (var i = 0; i < arrayThreadTitlesLength; i++) {
 			// remove blanks at the beginning and end
 			var trimmedThreadTitle = arrayThreadTitles[i].trim(); 
-			if(trimmedThreadTitle.length>0) && trimmedThreadTitle.[0] != '#' {
+			if(trimmedThreadTitle.length>0 && trimmedThreadTitle.charAt(0) != '#') {
 				// for debugging purposes
 				console.log("hiding thread for <TD> '" + trimmedThreadTitle + "'");
 				// find in the table the cell (='td') which contains the user name and 
