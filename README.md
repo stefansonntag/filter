@@ -1,8 +1,15 @@
 # Müsi Filter
+Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser von Google ("Chrome"), Mozilla ("Firefox") und Opera ("Opera"). Ich habe sie entwickelt, weil es mir lästig war, in den Forenlisten immer Einträge angezeigt zu bekommen, die mich nicht interessieren (z.B. Smiley, GEHEIM). Die Extension erlaubt es, die Namen von Benutzern, Foren und die Titel von Threads anzugeben, die in den Übersichtslisten nicht mehr angezeigt werden sollen. Der Filter wird vollständig vom Benutzer gesteuert und kann jederzeit ein- und weider ausgeschaltet werden. Sie [löscht keine Daten] (#Sicherheit) auf den Servern von muenchnersingles.de oder von Eurem Rechner, protokolliert nichts im Hintergrund oder sammelst sonst irgendwelche Daten - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt! 
+
+![](./media/filter.jpg)
+![](./media/ungefiltert.jpg)
+![](./media/gefiltert.jpg)
+
+Dazu verändert sie die Seiten, nachdem (!!) sie von muenchnersingles.de heruntergeladen wurden, und löscht zur Laufzeit die entsprechenden Einträge aus den Listen. 
+
 ## Inhaltsverzeichnis
 <details>
 
-- [Allgemeines] (#Allgemeines)
 - [Installation] (#Installation)
 - [Einschränkungen] (#Einschränkungen)
 - [Sonstiges] (#Sonstiges)
@@ -13,11 +20,10 @@
 
 
 
-## Allgemeines
 
-Der Muesi Filter ist eine Erweiterung für den Browser von Google der unter dem Namen Chrome bekannt ist. Es ist mit ca 80% Marktanteil der verbreiteste Browser weltweit, siehe https://www.w3schools.com/browsers/default.asp. Google Chrome verfügt über ein Feature, das es ermöglicht, selber sogenannte Extensions zu schreiben, die die Funktionalität des Browsers erweitern. Der Muesi Filter ist eine solche Extension, die ich geschrieben habe, weil es mir lästig war, in den Forenlisten immer Einträge angezeigt zu bekommen, die mich nicht interessieren. Die Extension bietet die Möglichkeit, die Namen von Benutzern, Foren, sowie die Titel von Threads anzugeben, die in den Übersichtslisten danach nicht mehr angezeigt werden sollen. Dazu verändert sie die Seiten, nachdem (!!) sie von muenchnersingles.de heruntergeladen wurden, und löscht zur Laufzeit die entsprechenden Einträge aus den Listen. 
+
 	
-WICHTIG: Die Extension löscht keine Daten von irgendwelchen Servern oder von Eurem Rechner, sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt! Die Extension kann nichts an Daten verändern, die auf den Servern von muenchnersingles.de gespeichert sind! 
+WICHTIG: 
 	
 Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery ein paar HTML Tabellen, also absolute Standards, die seit Jahren angewerdet werden. 
 
