@@ -29,7 +29,7 @@ Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erwe
 </details>
 
 
-## Für Opera
+### Für Opera
 
 <details>
 
@@ -70,7 +70,7 @@ Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass 
 </details>
 
 
-## Für Firefox
+### Für Firefox
 
 <details>
 
