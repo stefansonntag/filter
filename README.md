@@ -122,7 +122,9 @@ Wenn der Filter aktiv ist, also Einträge in den Listen unterdrückt, dann seht 
 
 Der Filter unterscheidet Groß- und Kleinschreibung. Wenn Ihr also den Thread "Guten Morgen" herausfiltern wollt, müsst ihr es genau so schreiben; "GUTEN Morgen" wird zu keinem Ergebnis führen. Was aber funktioniert, ist dass nur die ersten Buchstaben dessen, was gefiltert werden soll, angegeben werden. Wenn ihr also nach "Guten Morgen" filtert, werden auch Threads wie "Guten Morgen....","Guten Morgen allerseits" usw. in der Anzeige unterdrückt. Für Benutzernamen gilt die gleiche Funktionsweise.
 
-Die einfachste Art, wie man Benutzername und/oder Thread Titel ohne Tippfehler in die Felder eintragen kann ist, in den Listen mit der Maus über den Benutzernamen bzw Threadtitel zu fahren, dann rechte Maustaste klicken und "Kopieren" (nicht: "Link Adresse kopieren"!) aus dem Kontextmenu auswählen, dann das Filterfenster öffnen und den Inhalt in das entsprechende Feld einfügen, wiederum mit rechter Maustaste und dann "Einfügen" auswählen
+Die einfachste Art, wie man Benutzername und/oder Thread Titel ohne Tippfehler in die Felder eintragen kann ist, in den Listen mit der Maus über den Benutzernamen bzw Threadtitel zu fahren, dann rechte Maustaste klicken und "Kopieren" (nicht: "Link Adresse kopieren"!) aus dem Kontextmenu auswählen, dann das Filterfenster öffnen und den Inhalt in das entsprechende Feld einfügen, wiederum mit rechter Maustaste und dann "Einfügen" auswählen.
+
+Wenn ihr mehrere Threads ausgeblendet habt und einen oder nur wenige davon wieder anzeigen wollt, dann könnt ihr ein '#' vor den Threadtitel setzen und er wird wieder angezeigt. Dieser weg ist vor allem dann praktisch, wenn ihr so wie ich zig Threads ausgefiltert habt, die man sonst nur allesamt durch Entfernen des Häkchens wieder anzeigen könnte. Und jedesmal den Thread Titel löschen und wieder reinkopieren ist irgendwie auch keine Lösung, deswegen die Idee mit dem '#'
 	
 ## Sonstiges
 
