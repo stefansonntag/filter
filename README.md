@@ -1,11 +1,8 @@
 # Müsi Filter
-Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser von Google ("Chrome"), Mozilla ("Firefox") und Opera ("Opera"). Ich habe sie entwickelt, weil es mir lästig war, in den Forenlisten immer Einträge angezeigt zu bekommen, die mich nicht interessieren (z.B. Smiley, GEHEIM). Die Extension erlaubt es, die Namen von Benutzern, Foren und die Titel von Threads anzugeben, die in den Übersichtslisten nicht mehr angezeigt werden sollen. Der Filter wird vollständig vom Benutzer gesteuert und kann jederzeit ein- und weider ausgeschaltet werden. Sie [löscht keine Daten] (#Sicherheit) auf den Servern von muenchnersingles.de oder von Eurem Rechner, protokolliert nichts im Hintergrund oder sammelst sonst irgendwelche Daten - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt! 
+Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser von Google ("Chrome"), Mozilla ("Firefox") und Opera ("Opera"). Ich habe sie entwickelt, weil es mir lästig war, in den Forenlisten immer Einträge angezeigt zu bekommen, die mich nicht interessieren (z.B. Smiley, GEHEIM). Die Extension erlaubt es, die Namen von Benutzern, Foren und die Titel von Threads anzugeben, die in den Übersichtslisten nicht mehr angezeigt werden sollen. Der Filter wird vollständig vom Benutzer gesteuert und kann jederzeit ein- und weider ausgeschaltet werden. Sie löscht keine Daten auf den Servern von muenchnersingles.de oder von Eurem Rechner, protokolliert nichts im Hintergrund oder sammelst sonst irgendwelche Daten - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt! 
 
 ![](./media/filter.jpg)
-![](./media/ungefiltert.jpg)
-![](./media/gefiltert.jpg)
 
-Dazu verändert sie die Seiten, nachdem (!!) sie von muenchnersingles.de heruntergeladen wurden, und löscht zur Laufzeit die entsprechenden Einträge aus den Listen. 
 
 ## Inhaltsverzeichnis
 <details>
@@ -17,19 +14,19 @@ Dazu verändert sie die Seiten, nachdem (!!) sie von muenchnersingles.de herunte
 - [Bedienungstips] (#Bedienungstips)
 
 </details>
-
-
-
-
-
 	
-WICHTIG: 
-	
-Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery ein paar HTML Tabellen, also absolute Standards, die seit Jahren angewerdet werden. 
 
 ## Installation
 
-- Google Chrome hier herunterladen: https://www.google.com/chrome/ und installieren.
+### für Google Chrome
+- Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
+- In den Chrome Web Store gehen, nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
+![](./media/chromeadd.jpg)
+Dort auf 'Erweiterung hinzufügen' klicken. Falls Du Bedenken wegen Datensicherheit hast, lies Dir vorher den Abschnitt (#Sicherheit) durch.
+- Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schiessen, in dem Du irgendwohin ausserhalb des Fensters klickst.
+![](./media/chromeinstalled.jpg)
+-- Mozilla Firefox https://www.mozilla.org/de/firefox/new/
+-- Opera http://www.opera.com/de
 
 - Folgende Seite aufrufen: https://github.com/stefansonntag/filter/blob/master/Muesi.crx und per Klick auf den Download Button die Datei auf den eigenen Rechner herunterladen
 
@@ -54,6 +51,8 @@ Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ..
 ## Sicherheit
 
 Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code mit Absicht so weit wie es programmiertechnisch sinnvoll ist im Klartext geschrieben, also sprechende Variablennamen, Kommentare im Source Code, keine Verwendung von uglify.js oder ähnlichem, damit alles nachvollziehbar ist. Wenn die Zeit es erlaubt, erstelle ich auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. Könnte man ja nachvollziehbarerweise meinen, weil sie im Browser der bösen Tante Google läuft ;-)
+
+Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery ein paar HTML Tabellen, also absolute Standards, die seit Jahren angewerdet werden. 
 
 Um sich den Source Code der installerten Erweiterung auf cdem eigenen Rechner anzusehen (denn die crx datei zum installieren könnte ja theoretisch etwas ganz Anderes enthalten als der im repo veröffentlichte Source Code, z.B einen Trojaner): https://gist.github.com/paulirish/78d6c1406c901be02c2d beschreibt, wie man das machen kann
 
