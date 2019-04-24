@@ -21,13 +21,14 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 ### Für Google Chrome
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
 
-2)In den Chrome Web Store gehen https://chrome.google.com/webstore nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
-![](./media/chromeadd.jpg)
+2) In den Chrome Web Store gehen https://chrome.google.com/webstore nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
 
+![](./media/chromeadd.jpg)
 
 Dort auf 'Erweiterung hinzufügen' klicken. Falls Du Bedenken wegen Datensicherheit hast, lies Dir vorher den Abschnitt 'Sicherheit' auf dieser Seite durch.
 
 Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schiessen, in dem Du irgendwohin ausserhalb des Fensters klickst.
+
 ![](./media/chromeinstalled.jpg)
 
 
