@@ -9,9 +9,9 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 
 - [Installation] (#Installation)
 - [Einschränkungen] (#Einschränkungen)
-- [Sonstiges] (#Sonstiges)
 - [Sicherheit] (#Sicherheit)
 - [Bedienungstips] (#Bedienungstips)
+- [Sonstiges] (#Sonstiges)
 
 </details>
 	
@@ -56,48 +56,52 @@ Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen
  ![](./media/operasecurityhint.jpg)
 
 
- -Last but not leadt siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
+ -Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
   ![](./media/operamuesiinstalled.jpg)
 
+## Für Firefox
 
--- Mozilla Firefox https://www.mozilla.org/de/firefox/new/
-
-
-- Folgende Seite aufrufen: https://github.com/stefansonntag/filter/blob/master/Muesi.crx und per Klick auf den Download Button die Datei auf den eigenen Rechner herunterladen
-
-- In den Ordner für Downloads gehen, mit der rechten Maustaste auf die zuvor heruntergeladene Datei muesi.crx klicken und in dem daraufhin sich öffnendem Menu die Option "Öffnen mit" anklicken, Google Chrome auswählen und dann wird die Extension installiert. Alternativ könnt ihr "chrome://extensions/" in die Addresszeile von Chrome eingeben und dann auf die sich öffnene Seite die zuvor herunter gelandene Datei "muesi.crx" ziehen. Falls Ihr die Extension wieder löschen wollt: einfach "chrome://extensions/" in die Addresszeile von Chrome eingeben und dann bei Muesi Filter auf "Entfernen" klicken. 
+-- Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.mozilla.org/de/firefox/new/
+-- Den Mozilla Add On Store besuchen https://addons.mozilla.org/de/firefox/
+-- Nach Müsi Filter Suchen und installieren
 
 ## Einschränkungen
 
-- Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Andriod (Smartphone, Tablet). Das liegt daran, dass Google die Funktionalität von Chrome Extensions ausschliesslich auf Desktop Rechnern anbietet
+- Die Extension läuft nur auf Laptops bzw Desktop PC / Mac's, sie läuft nicht auf iPhones / iPad, oder irgendwelchen Geräten unter Android (Smartphone, Tablet). Das liegt daran, dass die Browerhersteller die Funktionalität von Extensions nur auf Desktop Rechnern anbietet. Update: Laut https://support.mozilla.org/de/kb/add-ons-finden-und-installieren-firefox-
+android funktionieren Extensions unter Firefox auf Android geräten. Da ich aber keines besitze, kann ich das nicht testen
 
-- Es ist möglich, dass die Paginierung manchmal etwas komisch aussieht. Wenn ihr z.B. unter "Neue Beiträge" geht und beispielsweise die Plauderecke unterdrückt, dort aber auf der ersten Seite ungefiltert bis auf einen Eintrag nur Posts aus der Plauderecke stehen, dann sieht Eure Anzeige so aus, dass auf Eurer Seite 1 nur 1 Eintrag steht, nämlich der einzige, der nicht gefiltert wird. Das liegt daran, dass die Erweiterung nur im Browser läuft und keine Daten serverseitig modifizieren kann, also auch nicht die Paginierung auf Basis der gefilterten Posts berechnen berechnen kann. Gleiches gilt für die abwechselnde Schattierung in den Listen: normalerweise sehr ihr dort die Posts abwechselnd grau und weiß hinterlegt. Wenn ihr einen Eintrag filtert, dann kann es also passieren, dass künftig zwei oder mehr aufeinander angezeigte Posts grau bzw weiß hinterlangeigt werde und nicht mehr abwechselnd.
 
-- Es werden zwar Posts unterdrückt, nicht aber deren Zitate.  
+- Es ist möglich, dass die Paginierung manchmal etwas komisch aussieht. Das liegt daran, dass die Erweiterung nur im Browser läuft und keine Daten serverseitig modifizieren kann, also auch nicht die Paginierung auf Basis der gefilterten Posts berechnen berechnen kann, sondern die Paginierung der ungefilterten Listen übernimmt. Gleiches gilt für die abwechselnde Schattierung in den Listen: normalerweise sehr ihr dort die Posts abwechselnd grau und weiß hinterlegt. Wenn ihr einen Eintrag filtert, dann kann es passieren, dass zwei oder mehr hintereinander angezeigte Posts grau bzw weiß hinterlegt sind und nicht mehr abwechselnd.
 
-- Wenn ihr die Filtereinstellungen das erste Mal nach der Installation aufruft, dann kann es sein, dass in den Eingabefelder "undefined" steht. Das ist nicht weiter schlimm, ihr könnt die Einträge einfach überschreiben bzw löschen. Das ist nur meiner Faulheit anzulasten, alle Möglichkeiten durchzutesten, in denen es zu nicht sauber initialisierten Variable kommen kann.
+- Es werden zwar einzelne Posts unterdrückt, nicht aber deren Zitate.  
 
-- Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite übrr den Browser neu laden. 
+- Wenn ihr die Filtereinstellungen das erste Mal nach der Installation aufruft, dann kann es sein, dass in den Eingabefeldern "undefined" steht. Das ist nicht weiter schlimm, ihr könnt die Einträge einfach überschreiben bzw löschen. Dieser Effekt ist nur meiner Faulheit anzulasten, alle Möglichkeiten durchzutesten, in denen es zu nicht sauber initialisierten Variablen kommen kann.
 
-## Sonstiges
+- Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag - unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite über den Browser neu laden. 
 
-Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ...
 
 ## Sicherheit
 
-Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code mit Absicht so weit wie es programmiertechnisch sinnvoll ist im Klartext geschrieben, also sprechende Variablennamen, Kommentare im Source Code, keine Verwendung von uglify.js oder ähnlichem, damit alles nachvollziehbar ist. Wenn die Zeit es erlaubt, erstelle ich auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. Könnte man ja nachvollziehbarerweise meinen, weil sie im Browser der bösen Tante Google läuft ;-)
+Die Extension ermittelt keine anderen Daten als für den Zweck, für den sie geschrieben wurde. Es ist kein Trojaner oder sonst etwas. Ich habe den Source Code daher hier auf github.com veröffentluhcv, so dass jeder hineinsehen kann, was ich geschrieben habe. Ich habe mit Absicht und so weit wie es programmiertechnisch sinnvoll ist im Klartext entwickelt, also sprechende Variablennamen, viele Kommentare im Source Code, keine Verwendung von uglify.js, minify.js oder ähnlichem (Code Obfuscation im Fachjargon) , damit alles nachvollziehbar bleibt. Wenn die Zeit es erlaubt, erstelle ich irgendwann auch noch einen Architekturplan, der erklärt, was genau zu welchem Zeitpunkt passiert. Das hilft mir, meine Gedanken genauer zu strukturieren und gibt Euch hoffentlich das Vertrauen, dass hinter der Extension kein Teufelszeugs steckt. 
 
-Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery ein paar HTML Tabellen, also absolute Standards, die seit Jahren angewerdet werden. 
+Für die Web Entwickler unter euch: die Extension modifiziert das DOM und löscht mit Hilfe von jQuery Zeilen aus HTML Tabellen, arbeitet also mit/auf absoluten Standards, die seit Jahren angewerdet werden. 
 
-Um sich den Source Code der installerten Erweiterung auf cdem eigenen Rechner anzusehen (denn die crx datei zum installieren könnte ja theoretisch etwas ganz Anderes enthalten als der im repo veröffentlichte Source Code, z.B einen Trojaner): https://gist.github.com/paulirish/78d6c1406c901be02c2d beschreibt, wie man das machen kann
+Für die Nicht Web Entwickler: Ihr fordert im Browser eine Seite von den muenchnersingles an. Deren Server sendet diese an den Browser. Bevor der Browser die Seite anzeigt, hakt die Extension ein und löscht die Einträge aus der Seite heraus, die ihr nicht sehen wollt. Sie arbeitet nur im Browser und löscht/modifiziert weder Daten auf den Servern von muenchnersingles.de noch solche, die auf Eurem Rechner gespeichert sind. Sie protokolliert auch nichts im Hintergrund oder spioniert sonst irgendwelche Daten aus - sie unterdrückt nur die Anzeige bestimmter User und Posts und das auch nur solange, wie ihr das wollt bzw. eingeschaltet habt!  
+
+Meinen Kindern habe das früher so erklärt: Bei den Müsis (zugegeben, es ging damals um andere Web Seiten) gibt es ein seeehr wertvolles Buch. Das geben die natürlich niiiemals aus den Händen, ist ja klar. Aber sie erlauben es Euch, in dem Buch zu lesen. Wenn ihr also eine Seite aus dem Buch lesen wollt, sagt ihr einem Bibliothekar, welches Kapitel aus dem Buch ihr lesen wollt. Der Bibliothekar weiss natürlich wo das Buch steht und auf welchen Seiten sich Kapitel befindet und sagt einem Praktikanten, dass er für euch eine Kopie der Seiten anfertigen soll, denn das Original kann er ja nicht aus den Händen geben, ist ja viel zu wertvoll. Aber warum ein Praktikant, warum macht der Bibliothekar das nicht selber? Hinter Euch steht bereits der nächste in der Schlange, der auch etwas lesen möchte, aus einem anderen, aber mindestens ebenso wertvollen Buch. Jetzt könnt ihr euch sicher vorstellen, dass ihr eeewig warten müsstet, wenn der Bibliothekar jedesmal selber mal aus dem einen, mal aus dem anderen Buch für euch die Seiten kopieren würde. Deswegen hat der Bibliothekar mehrere Praktikanten, die er losschickt und ihnen sagt, auf welcher Seite das Kapitel steht, dass sie rauskopieren sollen. So müsst ihr also nicht so lange warten, bis ihr endlich ander Reihe seit und mit dem Bibliothekar sagen könnt, was ihr lesen möchtet. Und in der Zwischenzeit flitzen die Praktikanten herum, machen Kopien und bringen sie zu euch. 
+Soweit funktioniert jede Web Seite im Kinderjargon, aber jetzt kommts: 
+Bevor der Praktikant zu euch kommt, hält ihn sein Kumpel auf und sagt "Hey, zeig mir mal, was du da hast!" und reisst ihm die Kopie aus den Händen. Er liest sie rasch durch und denkt sich "Nö, der Absatz da ist ja doof, der gefällt mir nicht", schwärzt ihn schnell aus und drückt dann dem Praktikanten die Seite wieder in die Hand. Der Praktikant aber hat soviel zu tun, dass er gar nicht weiter hinguckt und gibt euch dann die teils geschwärzte Kopie ...
 
 ## Bedienungstips
 
-- Man kann eine Tastenkkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "tastenkombination" gehen und die Tastaturfolge drücken, beu mit z.B. Control-M (Command M auf dem Mac) 
+- Man kann eine Tastenkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "Tastenkombination" gehen und die Tastenfolge drücken, bei mir z.B. Control-M (Command M auf dem Mac) 
 
-- Wenn der Filter aktiv ist, also Einträge in den Listen unterdrückt, dann seht ihr auf dem Icon "EIN" geschrieben. Was "AUS" bedeutet, ist hoffentlicvh klar :-). EIN ist der Filter immer dann, wenn mindestens eines der 3 Häkchen gesetzt ist und in einem Feld, dessen Häkchen gesetzt ist, mindestens 1 Filterbegriff steht (Minimum 1 Zeichen)
+- Wenn der Filter aktiv ist, also Einträge in den Listen unterdrückt, dann seht ihr auf dem Icon "EIN" geschrieben. Was "AUS" bedeutet, ist hoffentlich klar :-). EIN ist der Filter immer dann, wenn mindestens eines der 3 Häkchen gesetzt ist und in einem Feld, dessen Häkchen gesetzt ist, mindestens 1 Filterbegriff steht (Minimum 1 Zeichen)
 
-- Der Filter unterscheidet Gross- und Kleinschreibung. Wenn Ihr also den Thread "Guten Morgen" herausfiltern wollt, müsst ihr es genau so schreiben; "Guten Morgen" wird zu keinem Ergebnis führen. Was aber funktioniert, ist dass nur der ersten Buchstaben dessen, was gefiltert werden soll, angegeben werden. Wenn ihr also nach "Guten Morgen" filtert, werden auch Threads wie "Guten Morgen....","Guten Morgen allerseits" usw. in der Anzeige unterdrückt. Für Benutzernamen gilt die gleiche Funktionsweise.
+- Der Filter unterscheidet Groß- und Kleinschreibung. Wenn Ihr also den Thread "Guten Morgen" herausfiltern wollt, müsst ihr es genau so schreiben; "GUTEN Morgen" wird zu keinem Ergebnis führen. Was aber funktioniert, ist dass nur die ersten Buchstaben dessen, was gefiltert werden soll, angegeben werden. Wenn ihr also nach "Guten Morgen" filtert, werden auch Threads wie "Guten Morgen....","Guten Morgen allerseits" usw. in der Anzeige unterdrückt. Für Benutzernamen gilt die gleiche Funktionsweise.
 
-- Die einfachste Art, wie man Benutzername und/oder Thread Titel ohne Tippfehler in die Felder einträgt ist, in den Listen (z.B. in Neue Beiträge, geht aber auch jede andere Liste) mit der Maus über den Benutzernamen bzw Threadtitel zu fahren, dann recht Maustaste und "kopieren" (nicht Link Adresse Kopieren!), dann das Filterfenster öffnen und den Inhalt in das entsprechende Feld hineinzukopieren, wiederum mit rchter Maustates und dann "Einfügen" auswählen
+- Die einfachste Art, wie man Benutzername und/oder Thread Titel ohne Tippfehler in die Felder eintragen kann ist, in den Listen mit der Maus über den Benutzernamen bzw Threadtitel zu fahren, dann rechte Maustaste klicken und "Kopieren" (nicht: "Link Adresse kopieren"!) aus dem Kontextmenu auswählen, dann das Filterfenster öffnen und den Inhalt in das entsprechende Feld einfügen, wiederum mit rechter Maustaste und dann "Einfügen" auswählen
 	
+## Sonstiges
+
+Wer mitentwickeln möchte, immer gerne. Einfach das repo forken und los gehts ...
