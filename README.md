@@ -38,26 +38,32 @@ Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
 
 2) Auf folgende Seite gehen: https://addons.opera.com/de/extensions/details/install-chrome-extensions/ und dort die angezeigte Erweiterung installieren, in dem Du auf 'Zu Opera hinzufügen' klickst
+
 ![](./media/operawebstore.jpg)
  
 
 Es erscheint ein Hinweisfenster, dass die Erweiterung installiert ist
+
 ![](./media/operawebstoreinstalled.jpg)
 
 
 3) Danach kann es mit der eigentlichen Installation der Müsi Erweiterung losgehen. Dazu in den Chrome Web Store gehen https://chrome.google.com/webstore und dort nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, dass dir im Wesentlichen sagt, dass Du eine Chrome Extension in Opera installieren willst (was ja eigentlich nicht geht, s.o.) und es sein kann, dass dies Erweiterung ggf nicht ganz korrekt läuft. Tut sie aber :-) Also auf OK klicken und weitermachen
+
 ![](./media/operachromewarning.jpg)
 
 
-Danach wirst Du auf eine Seite geleitet, von der Du den Müsi Filter herunterladen und installieren kannst. Dazu auf der Seite auf 'Installieren' klicken
+Anschließend wirst Du auf eine Seite geleitet, von der Du den Müsi Filter herunterladen und installieren kannst. Dazu auf der Seite auf 'Installieren' klicken
+
 ![](./media/operamuesidownload.jpg)
 
 
 Es erscheint wie bei der Installation unter Chrome der Sicherheitshinweis. Dort 'Ja, Installieren' klicken. 
+
 ![](./media/operasecurityhint.jpg)
 
 
 Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
+
 ![](./media/operamuesiinstalled.jpg)
 
 ## Für Firefox
