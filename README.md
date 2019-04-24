@@ -22,7 +22,7 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 
 Dort auf 'Erweiterung hinzufügen' klicken. Falls Du Bedenken wegen Datensicherheit hast, lies Dir vorher den Abschnitt 'Sicherheit' auf dieser Seite durch.
 
-Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schiessen, in dem Du irgendwohin ausserhalb des Fensters klickst.
+Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erweiterung jetzt installiert ist und Du sie verwenden kannst. Über dem Fenster sieht du im Browserbar ein kleines Icon mit dem Logo der Müsis. Den Hinweis zur Synchronisation im unteren Teil des Fensters kannst Du ignorieren und das Fenster schliessen, in dem Du irgendwo ausserhalb des Fensters klickst.
 
 ![](./media/chromeinstalled.jpg)
 
@@ -34,7 +34,7 @@ Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erwe
 <details>
 
 
-Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen Unterschied, dass man aus Opera heraus nicht den Chrome Web store besuchen kann, da Google es nicht zulässt, dass Nicht-Google Bwowser in den Chrome Web Store gehen. Das macht aber nichts, denn es gibt - genau - eine Opera Extension, die dem Chrome Web Store vorspielt, Opera sei gar kein Opera, sondern ein Chrome Browser :-). Also muss diese Extension zuerst installiert werden, damit ihr danach die Müsi Extension aus dem Chrome Web Store laden könnt
+Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen Unterschied, dass man aus Opera heraus nichts aus dem Chrome Web Store installieren kann, da Google es nicht zulässt, dass Nicht-Google Browser sich im Chrome Web Store bedienen. Das macht aber nichts, denn es gibt kluge Freizeitentwickler, die - genau - eine Opera Extension geschrieben haben, welhe dem Chrome Web Store vorspielt, Opera sei gar kein Opera, sondern ein Chrome Browser. Genau das, was wir brauchen! Also muss diese Extension zuerst installiert werden, damit ihr danach die Müsi Extension aus dem Chrome Web Store laden könnt.
 
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
 
@@ -48,7 +48,7 @@ Es erscheint ein Hinweisfenster, dass die Erweiterung installiert ist
 ![](./media/operawebstoreinstalled.jpg)
 
 
-3) Danach kann es mit der eigentlichen Installation der Müsi Erweiterung losgehen. Dazu in den Chrome Web Store gehen https://chrome.google.com/webstore und dort nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, dass dir im Wesentlichen sagt, dass Du eine Chrome Extension in Opera installieren willst (was ja eigentlich nicht geht, s.o.) und es sein kann, dass dies Erweiterung ggf nicht ganz korrekt läuft. Tut sie aber :-) Also auf OK klicken und weitermachen
+3) Danach kann es mit der eigentlichen Installation der Müsi Erweiterung losgehen. Dazu in den Chrome Web Store gehen https://chrome.google.com/webstore/detail/müsi-filter/fdhoepcaknoijkocinkjodileckhopno und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, dass dir im Wesentlichen sagt, dass Du eine Chrome Extension in Opera installieren willst (was ja eigentlich nicht geht, s.o.) und es daher sein kann, dass die Erweiterung vielleicht nicht ganz korrekt läuft. Tut sie aber, das weiss ich weil ich sie geschrieben habe und Lennox sie getestet hat :-) Also auf 'OK' klicken und weitermachen
 
 ![](./media/operachromewarning.jpg)
 
@@ -63,7 +63,7 @@ Es erscheint wie bei der Installation unter Chrome der Sicherheitshinweis. Dort 
 ![](./media/operasecurityhint.jpg)
 
 
-Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
+Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass der Müsi Filter installiert wurde. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen.
 
 ![](./media/operamuesiinstalled.jpg)
 
