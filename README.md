@@ -116,7 +116,7 @@ Bevor der Praktikant zu euch kommt, hält ihn sein Kumpel hinter einem Regal auf
 
 ## Bedienungstips
 
-Man kann eine Tastenkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "Tastenkombination" gehen und die Tastenfolge drücken, bei mir z.B. Control-M (Command M auf dem Mac) 
+Man kann eine Tastenkombination festlegen, die das Filterfenster aufruft, so dass man nicht immer mit der Maus auf das kleine Icon zielen muss. Dazu in die Verwaltung von Extensions ("chrome://extensions") gehen, auf das Menu links klicken (die drei waagerechten Striche lins oben), dann Tastenkombination und dann in das Feld "Tastenkombination" gehen und die Tastenfolge drücken, bei mir z.B. Control-M (Command M auf dem Mac). 
 
 Wenn der Filter aktiv ist, also Einträge in den Listen unterdrückt, dann seht ihr auf dem Icon "EIN" geschrieben. Was "AUS" bedeutet, ist hoffentlich klar :-). EIN ist der Filter immer dann, wenn mindestens eines der 3 Häkchen gesetzt ist und in einem Feld, dessen Häkchen gesetzt ist, mindestens 1 Filterbegriff steht (Minimum 1 Zeichen)
 
