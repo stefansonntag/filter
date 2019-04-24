@@ -33,6 +33,7 @@ Danach erscheint ein weiteres Fenster, in dem Dir mitgeteilt wird, dass die Erwe
 
 <details>
 
+
 Die Installation für Opera ist dieselbe wie für Google Chrome, mit dem kleinen Unterschied, dass man aus Opera heraus nicht den Chrome Web store besuchen kann, da Google es nicht zulässt, dass Nicht-Google Bwowser in den Chrome Web Store gehen. Das macht aber nichts, denn es gibt - genau - eine Opera Extension, die dem Chrome Web Store vorspielt, Opera sei gar kein Opera, sondern ein Chrome Browser :-). Also muss diese Extension zuerst installiert werden, damit ihr danach die Müsi Extension aus dem Chrome Web Store laden könnt
 
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: http://www.opera.com/de
@@ -74,6 +75,7 @@ Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass 
 <details>
 
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.mozilla.org/de/firefox/new/
+
 2) Den Mozilla Add On Store besuchen https://addons.mozilla.org/de/firefox/addon/müsi-filter/ und auf 'Zu Firefox hinzufügen klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. Dort 'Ja' auswählen.
 
 ![](./media/firefoxsecurity.jpg)
