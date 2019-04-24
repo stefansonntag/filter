@@ -21,7 +21,7 @@ Der Muesi Filter ist eine Erweiterung ("Extension","Add-On") für die Browser vo
 ### Für Google Chrome
 1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.google.com/chrome/
 
-2) In den Chrome Web Store gehen https://chrome.google.com/webstore nach 'Müsi Filter' suchen und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
+2) In den Chrome Web Store gehen https://chrome.google.com/webstore/detail/müsi-filter/fdhoepcaknoijkocinkjodileckhopno und auf 'Hinzufügen' klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. 
 
 ![](./media/chromeadd.jpg)
 
@@ -68,9 +68,14 @@ Last but not least siehst du dann ein Fenster, in dem dir bestätigt wird, dass 
 
 ## Für Firefox
 
--- Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.mozilla.org/de/firefox/new/
--- Den Mozilla Add On Store besuchen https://addons.mozilla.org/de/firefox/
--- Nach Müsi Filter Suchen und installieren
+1) Falls noch nicht vorhanden: Browser herunterladen und installieren: https://www.mozilla.org/de/firefox/new/
+2) Den Mozilla Add On Store besuchen https://addons.mozilla.org/de/firefox/addon/müsi-filter/ und auf 'Zu Firefox hinzufügen klicken. Es erscheint ein Fenster, in dem Du auf Berechtigungen hingewiesen wirst, die die Extension benötigt, damit sie überhaupt funktionieren kann. Dort 'Ja' auswählen.
+
+![](./media/firefoxsecurity.jpg)
+
+Anschliessend wird ein Fenster angezeigt, dass die Extension installiert ist. Ein Icon mit dem Müsi Logo ist im Browser Bar rechts oben zu sehen
+
+![](./media/firefoxinstalled.jpg)
 
 ## Einschränkungen
 
@@ -85,6 +90,7 @@ Update: Laut https://support.mozilla.org/de/kb/add-ons-finden-und-installieren-f
 
 - Wenn Ihr auf "Neue Beiträge" seid, der gelbe Eintrag "Neue Beträge wurden geschrieben" erscheint und ihr klickt darauf, dann seht ihr den Eintrag - unabhängig davon, ob ihr ihn gefiltert habt oder nicht. Um ihn auszublenden müsst ihr die Seite über den Browser neu laden. 
 
+- In Firefox bewirkt ein KLicken auf "Einstellungen übernehmen" kein automatisches Neuladen der Seite. Damit die Filter angewendet werden , müsst ihr die Seite 1 x manuell neu laden (über das Menu, Tastatur, das Reload Icon oder auf einen der Links auf den Müsi Seiten) 
 
 ## Sicherheit
 
